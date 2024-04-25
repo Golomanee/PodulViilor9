@@ -18,7 +18,7 @@ html {
     z-index: 1000;
     padding-top: 10px;
     padding-bottom: 5px;
-    background-color: rgba(233, 230, 230, 0.8);
+    background-color: rgba(216, 212, 212, 0.3);
 }
 
 .cautare::-webkit-scrollbar {
@@ -29,6 +29,7 @@ html {
 a {
     text-decoration: none;
     color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .item {
@@ -41,7 +42,7 @@ a {
     border-radius: 15px;
     border-color: gray;
     margin-left: 12px;
-    background-color: rgb(255, 235, 235);
+    background-color: rgb(230, 206, 69);
     font-weight: 500;
 }
 
@@ -69,7 +70,7 @@ a {
 .produs {
     width: 90%;
     margin: auto;
-    height: 100px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +80,7 @@ a {
     padding: 4px;
     margin-bottom: 15px;
     box-shadow: 4px 4px;
-    background-color: rgb(104, 244, 160);
+    background-color: #8FB67B;
 
 }
 
@@ -111,6 +112,7 @@ a {
     margin-left: 3px;
     margin-bottom: 0;
     font-size: 20px;
+    color: rgb(230, 206, 69);
 }
 
 .categorie h3 {
@@ -124,4 +126,6 @@ a {
 
 .categorie {
     margin-bottom: 40px;
+    background-color: rgb(247, 226, 226);
+    padding-bottom: 10px;
 }
